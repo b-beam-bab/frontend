@@ -1,15 +1,13 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Providers } from "./providers";
+import Providers from "./providers";
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <Providers>
-      <div>
+      <div className="min-h-screen flex flex-col bg-gradient-to-r from-[#E0EAFC] to-[#CFDEF3]">
         <Header />
-
-        <main>{children}</main>
-
+        <main className="flex-1 pt-16">{children}</main>
         <Footer />
       </div>
     </Providers>
