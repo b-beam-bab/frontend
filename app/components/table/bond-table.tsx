@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowUpDown, HelpCircle } from "lucide-react";
 import { Button } from "../ui/button";
 import { TableCell, TableHead, TableHeader, TableRow } from "../ui/table";
@@ -58,7 +60,7 @@ const BondTableHeader = () => {
                 <TooltipTrigger>
                   <HelpCircle className="h-4 w-4" />
                 </TooltipTrigger>
-                <TooltipContent>
+                <TooltipContent className="p-2 mb-2 bg-white shadow">
                   <p>Principal Token Maturity Value</p>
                 </TooltipContent>
               </Tooltip>
