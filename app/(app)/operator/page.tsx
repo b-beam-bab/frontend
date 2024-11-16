@@ -1,4 +1,4 @@
-export default function Validate() {
+export default function OperatorPage() {
   return (
     <div>
       <h1>Validate</h1>

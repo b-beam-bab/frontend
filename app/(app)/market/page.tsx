@@ -9,12 +9,12 @@ import { Table, TableBody } from "@/components/ui/table";
 import { BondTableHeader, BondTableRow } from "@/components/table/bond-table";
 import { MOCK_BONDS } from "@/mock/bond";
 
-export default function DelegatePage() {
+export default function MarketPage() {
   return (
     <div className="container mx-auto px-4 py-6">
       <Card className="bg-background">
         <CardHeader>
-          <CardTitle className="text-2xl font-bold">Delegate Bonds</CardTitle>
+          <CardTitle className="text-2xl font-bold">Trade Bonds</CardTitle>
           <CardDescription className="text-lg text-muted-foreground">
             Explore and delegate to our unified bond liquidity pool. Each bond
             represents a standardized zero-coupon bond with equal value, helping
