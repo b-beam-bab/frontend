@@ -3,7 +3,7 @@
 import { useBondBalance } from "@/lib/hooks/use-bond-balance";
 import { useDepositAmount } from "@/lib/hooks/use-deposit-amount";
 import { useAccount } from "wagmi";
-import { Onboarding } from "./components/onboarding";
+import Onboarding from "./components/onboarding";
 import { Operator } from "./components/operator";
 import { Investor } from "./components/investor";
 
